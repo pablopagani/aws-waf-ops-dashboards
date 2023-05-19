@@ -89,4 +89,4 @@ WARNING: When deleted, the logs backup stored on the S3 bucket created by the so
 
 ### Plus using terraform
 
-If you need to run this solution through teraform and save time by avoiding the need to transfer everything from CloudFormation to Terraform, you can start by configuring the variable.tf filling out the ESConfigBucket, and YourEmail variable. Afterward, run the fm-waf-logging.tf to ensure a successful execution.
+If you need to run this solution through teraform and save time by avoiding the need to transfer everything from CloudFormation to Terraform, you can start by configuring the variable.tf filling out the ESConfigBucket, and YourEmail variable. Afterward, run the waf-logging.tf to ensure a successful execution.
