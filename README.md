@@ -86,3 +86,7 @@ And these are the dashboards with data:
 
 To remove the solution, disable AWS WAF logging to be sent to this solution, wait some minutes for the last logs to be processed and delete the stack via the AWS CloudFormation console.
 WARNING: When deleted, the logs backup stored on the S3 bucket created by the solution will be deleted along with the bucket.
+
+### Plus using terraform
+
+If you need to run this solution through teraform and save time by avoiding the need to transfer everything from CloudFormation to Terraform, you can start by configuring the variable.tf filling out the ESConfigBucket, and YourEmail variable. Afterward, run the waf-logging.tf to ensure a successful execution.
